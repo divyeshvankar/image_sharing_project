@@ -1,0 +1,17 @@
+{% load base64_encode %}
+
+
+
+
+<html>
+    <body>
+        <h2>Display Images</h2>
+        {% for image in images %}
+        <img src="data:image/jpeg;base64,{% base64_encode image.binary_data %}" alt="Image">
+       
+
+   {% empty %}
+       <p>No images found.</p>
+   {% endfor %}
+</body>
+</html>

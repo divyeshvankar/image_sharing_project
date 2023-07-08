@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Caches
+__pycache__/
+*.pyc
+
+# Django project settings
+*.env
+*.env.*
+settings_secret.py
+
+# Static files
+/staticfiles/
+/static/
+
+# Media files
+/media/
+
+# Database
+*.sqlite3
+
+# Logs
+*.log
+
+# Test database
+test_db.sqlite3
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Visual Studio Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Docker
+.docker/
+
+# Heroku
+.heroku/
+
+# Python virtual environment
+.venv/
+venv/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore Mac system files
+.DS_Store
